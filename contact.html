@@ -1,0 +1,61 @@
+<!-- Franklin Nweke Services - Contact Page -->
+<!-- A side project by Chigozie Franklin Nweke (Student ID: 8972856) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Expense Tracker</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Expense Tracker</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Contact</h2>
+            <p>Have questions or feedback about this expense tracker? Feel free to get in touch.</p>
+            
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="contact-name">Name:</label>
+                    <input type="text" id="contact-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="contact-email">Email:</label>
+                    <input type="email" id="contact-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="contact-message">Message:</label>
+                    <textarea id="contact-message" rows="5" placeholder="Share your thoughts or suggestions..." required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+            <div id="contact-message-area"></div>
+            
+            <div class="contact-info">
+                <h3>Developer</h3>
+                <p>This project was developed as a learning exercise and portfolio piece.</p>
+                <ul>
+                    <li>📍 Kitchener Waterloo, Ontario</li>
+                    <li>👨‍💻 Web Development Student</li>
+                    <li>🎓 Student ID: 8972856</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Chigozie Franklin Nweke</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html> 
