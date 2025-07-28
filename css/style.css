@@ -214,21 +214,17 @@ tr:hover {
 
 .delete-btn {
     background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     border-radius: 6px;
     min-width: auto;
     box-shadow: 0 2px 8px rgba(239, 68, 68, 0.3);
+    font-size: 0.85rem;
+    font-weight: 500;
 }
 
 .delete-btn:hover {
     background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
     box-shadow: 0 4px 12px rgba(239, 68, 68, 0.4);
-}
-
-.delete-btn img {
-    width: 16px;
-    height: 16px;
-    filter: brightness(0) invert(1);
 }
 
 #totals {

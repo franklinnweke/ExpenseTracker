@@ -2,10 +2,6 @@
 // A side project by Chigozie Franklin Nweke (Student ID: 8972856)
 
 $(document).ready(function() {
-    // Preload icon for advanced JS feature
-    const trashIcon = new Image();
-    trashIcon.src = "images/trash.png";
-
     // Load expenses from localStorage or initialize
     let expenses = JSON.parse(localStorage.getItem('expenses')) || [];
 
@@ -43,7 +39,7 @@ $(document).ready(function() {
             row.append(`<td>${exp.date}</td>`);
             row.append(`<td>${exp.name}</td>`);
             row.append(`<td>$${parseFloat(exp.amount).toFixed(2)}</td>`);
-            row.append(`<td><button class="delete-btn" data-index="${i}"><img src="images/trash.png" alt="Delete" width="18"></button></td>`);
+            row.append(`<td><button class="delete-btn" data-index="${i}">Delete</button></td>`);
             tbody.append(row);
         }
     }
